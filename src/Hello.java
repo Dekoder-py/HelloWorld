@@ -31,5 +31,12 @@ public class Hello {
         if(!isCar) {
             System.out.println("It's not a car.");
         }
+
+        String makeOfCar = "Toyota";
+        boolean isDomestic = (makeOfCar == "Toyota") ? false : true;
+
+        if (isDomestic) {
+            System.out.println("This car is domestic to our country");
+        }
     }
-}
+;}
