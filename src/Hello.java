@@ -23,12 +23,12 @@ public class Hello {
         }
 
         int newValue = 50;
-        if (newValue == 50){
+        if (newValue == 50) {
             System.out.println("There was an error, but I fixed it :)");
         }
 
         boolean isCar = false;
-        if(!isCar) {
+        if (!isCar) {
             System.out.println("It's not a car.");
         }
 
@@ -38,5 +38,9 @@ public class Hello {
         if (isDomestic) {
             System.out.println("This car is domestic to our country");
         }
+        int userAge = 21;
+        String eighteenPlus = userAge >= 18 ? "Eighteen or older" : "Younger than 18";
+        System.out.println(eighteenPlus);
+
     }
 ;}
