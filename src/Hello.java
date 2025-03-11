@@ -14,7 +14,17 @@ public class Hello {
         }
 
         int secondTopScore = 60;
-        if (topScore > secondTopScore && topScore < 100)
+        if ((topScore > secondTopScore) && (topScore < 100)) {
             System.out.println("Greater than second top score and less than 100");
+        }
+
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Either or both of the conditions is true");
+        }
+
+        int newValue = 50;
+        if (newValue == 50){
+            System.out.println("There was an error, but I fixed it :)");
+        }
     }
 }
