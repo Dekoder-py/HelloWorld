@@ -3,7 +3,7 @@ public class Hello {
         System.out.println("Hello, Dekoder-py");
 
         boolean isAlien = false;
-        if (isAlien == false) { // Can be simplified to !isALien but leaving as is to follow the example
+        if (!isAlien) {
             System.out.println("It is not an alien!");
             System.out.println("And I am scared of aliens!");
         }
@@ -25,6 +25,11 @@ public class Hello {
         int newValue = 50;
         if (newValue == 50){
             System.out.println("There was an error, but I fixed it :)");
+        }
+
+        boolean isCar = false;
+        if(!isCar) {
+            System.out.println("It's not a car.");
         }
     }
 }
